@@ -16,7 +16,6 @@
 // under the License.
 package org.openqa.selenium;
 
-import org.openqa.selenium.interactions.ActionsTest;
 import org.openqa.selenium.interactions.CompositeActionTest;
 import org.openqa.selenium.interactions.IndividualKeyboardActionsTest;
 import org.openqa.selenium.interactions.IndividualMouseActionsTest;
@@ -36,7 +35,6 @@ import org.openqa.selenium.testing.drivers.IgnoreComparitorUnitTest;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-    ActionsTest.class,
     ByTest.class,
     CommandLineTest.class,
     CookieTest.class,
